@@ -7,7 +7,8 @@ const Header = () => {
             <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
                 <Container>
                     <Navbar.Brand href="/">
-                        <img src={pokeball} alt="cat" width={100} />StoreMax</Navbar.Brand>
+                        <img src={pokeball} alt="cat" width={50} />
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
