@@ -9,6 +9,6 @@ export interface Pokemon {
 }
 
 
-interface PokemonProps {
+export interface PokemonProps {
     pokemon: Pokemon;
-  }
+}

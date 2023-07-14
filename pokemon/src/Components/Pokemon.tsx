@@ -1,22 +1,23 @@
 import { Card } from "react-bootstrap"
 import { PokemonProps } from "../Interfaces/Pokemon"
+import { Link } from "react-router-dom"
+import Exp from "./Exp"
 
 const Pokemon: React.FC<PokemonProps> = ({ pokemon }) => {
-
     return (
         <Card className='my-3 p-3 rounded'>
-            <a href={`/pokemon/${pokemon.id}`}>
-                <Card.Img src={pokemon.image} variant="top"></Card.Img>
-            </a>
+            <Link to={`/pokemon/${pokemon.id}`}>
+                <Card.Img src={pokemon.image} variant="top" width={100} />
+            </Link>
 
             <Card.Body>
-                <a href={`/pokemon/${pokemon.id}`}>
+                <Link to={`/pokemon/${pokemon.id}`}>
                     <Card.Title as='div'>
                         <strong>
                             {pokemon.name}
                         </strong>
                     </Card.Title>
-                </a>
+                </Link>
 
                 <Card.Text as="h3">
 
@@ -28,6 +29,11 @@ const Pokemon: React.FC<PokemonProps> = ({ pokemon }) => {
                         ))
                     }
 
+                </Card.Text>
+
+
+                <Card.Text as='div'>
+                    <Exp value={pokemon.baseExperience} />
                 </Card.Text>
             </Card.Body>
         </Card>

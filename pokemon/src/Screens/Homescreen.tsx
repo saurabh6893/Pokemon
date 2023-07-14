@@ -10,12 +10,13 @@ const Homescreen = () => {
             <Row>
                 {
                     AllPokemon.map((pokemon) => (
-                        <Col sm={12} md={6} lg={4} xl={3}>
+                        <Col key={pokemon.id} sm={12} md={6} lg={4} xl={3}>
                             <Pokemon pokemon={pokemon} />
                         </Col>
                     ))
                 }
             </Row>
+
         </>
     )
 }

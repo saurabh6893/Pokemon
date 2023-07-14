@@ -5,7 +5,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 1,
         name: "Bulbasaur",
-        image: "./assets/assets/pokemons/default/alpha.jpg",
+        image: "/1.png",
         type: ["Grass", "Poison"],
         height: 0.7,
         weight: 6.9,
@@ -14,7 +14,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 2,
         name: "Ivysaur",
-        image: "/assets/assets/pokemons/default/2.png",
+        image: "/2.png",
         type: ["Grass", "Poison"],
         height: 1,
         weight: 13,
@@ -23,7 +23,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 3,
         name: "Venusaur",
-        image: "/assets/assets/pokemons/default/3.png",
+        image: "/3.png",
         type: ["Grass", "Poison"],
         height: 2,
         weight: 100,
@@ -32,7 +32,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 4,
         name: "Charmander",
-        image: "/assets/assets/pokemons/default/4.png",
+        image: "/4.png",
         type: ["Fire"],
         height: 0.6,
         weight: 8.5,
@@ -41,7 +41,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 5,
         name: "Charmeleon",
-        image: "/assets/assets/pokemons/default/5.png",
+        image: "/5.png",
         type: ["Fire"],
         height: 1.1,
         weight: 19,
@@ -50,7 +50,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 6,
         name: "Charizard",
-        image: "/assets/assets/pokemons/default/6.png",
+        image: "/6.png",
         type: ["Fire", "Flying"],
         height: 1.7,
         weight: 90.5,
@@ -59,7 +59,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 7,
         name: "Squirtle",
-        image: "/assets/assets/pokemons/default/7.png",
+        image: "/7.png",
         type: ["Water"],
         height: 0.5,
         weight: 9,
@@ -68,7 +68,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 8,
         name: "Wartortle",
-        image: "/assets/assets/pokemons/default/8.png",
+        image: "/8.png",
         type: ["Water"],
         height: 1,
         weight: 22.5,
@@ -77,7 +77,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 9,
         name: "Blastoise",
-        image: "/assets/assets/pokemons/default/9.png",
+        image: "/9.png",
         type: ["Water"],
         height: 1.6,
         weight: 85.5,
@@ -86,7 +86,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 10,
         name: "Caterpie",
-        image: "/assets/assets/pokemons/default/10.png",
+        image: "/10.png",
         type: ["Bug"],
         height: 0.3,
         weight: 2.9,
@@ -95,7 +95,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 11,
         name: "Metapod",
-        image: "/assets/assets/pokemons/default/11.png",
+        image: "/11.png",
         type: ["Bug"],
         height: 0.7,
         weight: 9.9,
@@ -104,7 +104,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 12,
         name: "Butterfree",
-        image: "/assets/assets/pokemons/default/12.png",
+        image: "/12.png",
         type: ["Bug", "Flying"],
         height: 1.1,
         weight: 32,
@@ -113,7 +113,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 13,
         name: "Weedle",
-        image: "/assets/assets/pokemons/default/13.png",
+        image: "/13.png",
         type: ["Bug", "Poison"],
         height: 0.3,
         weight: 3.2,
@@ -122,7 +122,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 14,
         name: "Kakuna",
-        image: "/assets/assets/pokemons/default/14.png",
+        image: "/14.png",
         type: ["Bug", "Poison"],
         height: 0.6,
         weight: 10,
@@ -131,7 +131,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 15,
         name: "Beedrill",
-        image: "/assets/assets/pokemons/default/15.png",
+        image: "/15.png",
         type: ["Bug", "Poison"],
         height: 1,
         weight: 29.5,
@@ -140,7 +140,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 16,
         name: "Pidgey",
-        image: "/assets/assets/pokemons/default/16.png",
+        image: "/16.png",
         type: ["Normal", "Flying"],
         height: 0.3,
         weight: 1.8,
@@ -149,7 +149,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 17,
         name: "Pidgeotto",
-        image: "/assets/assets/pokemons/default/17.png",
+        image: "/17.png",
         type: ["Normal", "Flying"],
         height: 1.1,
         weight: 30,
@@ -158,7 +158,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 18,
         name: "Pidgeot",
-        image: "/assets/assets/pokemons/default/18.png",
+        image: "/18.png",
         type: ["Normal", "Flying"],
         height: 1.5,
         weight: 39.5,
@@ -167,7 +167,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 19,
         name: "Rattata",
-        image: "/assets/assets/pokemons/default/19.png",
+        image: "/19.png",
         type: ["Normal"],
         height: 0.3,
         weight: 3.5,
@@ -176,7 +176,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 20,
         name: "Raticate",
-        image: "/assets/assets/pokemons/default/20.png",
+        image: "/20.png",
         type: ["Normal"],
         height: 0.7,
         weight: 18.5,
@@ -185,7 +185,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 21,
         name: "Spearow",
-        image: "/assets/assets/pokemons/default/21.png",
+        image: "/21.png",
         type: ["Normal", "Flying"],
         height: 0.3,
         weight: 2,
@@ -194,7 +194,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 22,
         name: "Fearow",
-        image: "/assets/assets/pokemons/default/22.png",
+        image: "/22.png",
         type: ["Normal", "Flying"],
         height: 1.2,
         weight: 38,
@@ -203,7 +203,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 23,
         name: "Ekans",
-        image: "/assets/assets/pokemons/default/23.png",
+        image: "/23.png",
         type: ["Poison"],
         height: 2,
         weight: 6.9,
@@ -212,7 +212,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 24,
         name: "Arbok",
-        image: "/assets/assets/pokemons/default/24.png",
+        image: "/24.png",
         type: ["Poison"],
         height: 3.5,
         weight: 65,
@@ -221,7 +221,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 25,
         name: "Pikachu",
-        image: "/assets/assets/pokemons/default/25.png",
+        image: "/25.png",
         type: ["Electric"],
         height: 0.4,
         weight: 6,
@@ -230,7 +230,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 26,
         name: "Raichu",
-        image: "/assets/assets/pokemons/default/26.png",
+        image: "/26.png",
         type: ["Electric"],
         height: 0.8,
         weight: 30,
@@ -239,7 +239,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 27,
         name: "Sandshrew",
-        image: "/assets/assets/pokemons/default/27.png",
+        image: "/27.png",
         type: ["Ground"],
         height: 0.6,
         weight: 12,
@@ -248,7 +248,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 28,
         name: "Sandslash",
-        image: "/assets/assets/pokemons/default/28.png",
+        image: "/28.png",
         type: ["Ground"],
         height: 1,
         weight: 29.5,
@@ -257,7 +257,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 29,
         name: "Nidoran♀",
-        image: "/assets/assets/pokemons/default/29.png",
+        image: "/29.png",
         type: ["Poison"],
         height: 0.4,
         weight: 7,
@@ -266,7 +266,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 30,
         name: "Nidorina",
-        image: "/assets/assets/pokemons/default/30.png",
+        image: "/30.png",
         type: ["Poison"],
         height: 0.8,
         weight: 20,
@@ -275,7 +275,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 31,
         name: "Nidoqueen",
-        image: "/assets/assets/pokemons/default/31.png",
+        image: "/31.png",
         type: ["Poison", "Ground"],
         height: 1.3,
         weight: 60,
@@ -284,7 +284,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 32,
         name: "Nidoran♂",
-        image: "/assets/assets/pokemons/default/32.png",
+        image: "/32.png",
         type: ["Poison"],
         height: 0.5,
         weight: 9,
@@ -293,7 +293,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 33,
         name: "Nidorino",
-        image: "/assets/assets/pokemons/default/33.png",
+        image: "/33.png",
         type: ["Poison"],
         height: 0.9,
         weight: 19.5,
@@ -302,7 +302,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 34,
         name: "Nidoking",
-        image: "/assets/assets/pokemons/default/34.png",
+        image: "/34.png",
         type: ["Poison", "Ground"],
         height: 1.4,
         weight: 62,
@@ -311,7 +311,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 35,
         name: "Clefairy",
-        image: "/assets/assets/pokemons/default/35.png",
+        image: "/35.png",
         type: ["Fairy"],
         height: 0.6,
         weight: 7.5,
@@ -320,7 +320,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 36,
         name: "Clefable",
-        image: "/assets/assets/pokemons/default/36.png",
+        image: "/36.png",
         type: ["Fairy"],
         height: 1.3,
         weight: 40,
@@ -329,7 +329,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 37,
         name: "Vulpix",
-        image: "/assets/assets/pokemons/default/37.png",
+        image: "/37.png",
         type: ["Fire"],
         height: 0.6,
         weight: 9.9,
@@ -338,7 +338,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 38,
         name: "Ninetales",
-        image: "/assets/assets/pokemons/default/38.png",
+        image: "/38.png",
         type: ["Fire"],
         height: 1.1,
         weight: 19.9,
@@ -347,7 +347,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 39,
         name: "Jigglypuff",
-        image: "/assets/assets/pokemons/default/39.png",
+        image: "/39.png",
         type: ["Normal", "Fairy"],
         height: 0.5,
         weight: 5.5,
@@ -356,7 +356,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 40,
         name: "Wigglytuff",
-        image: "/assets/assets/pokemons/default/40.png",
+        image: "/40.png",
         type: ["Normal", "Fairy"],
         height: 1,
         weight: 12,
@@ -365,7 +365,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 41,
         name: "Zubat",
-        image: "/assets/assets/pokemons/default/41.png",
+        image: "/41.png",
         type: ["Poison", "Flying"],
         height: 0.8,
         weight: 7.5,
@@ -374,7 +374,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 42,
         name: "Golbat",
-        image: "/assets/assets/pokemons/default/42.png",
+        image: "/42.png",
         type: ["Poison", "Flying"],
         height: 1.6,
         weight: 55,
@@ -383,7 +383,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 43,
         name: "Oddish",
-        image: "/assets/assets/pokemons/default/43.png",
+        image: "/43.png",
         type: ["Grass", "Poison"],
         height: 0.5,
         weight: 5.4,
@@ -392,7 +392,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 44,
         name: "Gloom",
-        image: "/assets/assets/pokemons/default/44.png",
+        image: "/44.png",
         type: ["Grass", "Poison"],
         height: 0.8,
         weight: 8.6,
@@ -401,7 +401,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 45,
         name: "Vileplume",
-        image: "/assets/assets/pokemons/default/45.png",
+        image: "/45.png",
         type: ["Grass", "Poison"],
         height: 1.2,
         weight: 18.6,
@@ -410,7 +410,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 46,
         name: "Paras",
-        image: "/assets/assets/pokemons/default/46.png",
+        image: "/46.png",
         type: ["Bug", "Grass"],
         height: 0.3,
         weight: 5.4,
@@ -419,7 +419,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 47,
         name: "Parasect",
-        image: "/assets/assets/pokemons/default/47.png",
+        image: "/47.png",
         type: ["Bug", "Grass"],
         height: 1,
         weight: 29.5,
@@ -428,7 +428,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 48,
         name: "Venonat",
-        image: "/assets/assets/pokemons/default/48.png",
+        image: "/48.png",
         type: ["Bug", "Poison"],
         height: 1,
         weight: 30,
@@ -437,7 +437,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 49,
         name: "Venomoth",
-        image: "/assets/assets/pokemons/default/49.png",
+        image: "/49.png",
         type: ["Bug", "Poison"],
         height: 1.5,
         weight: 12.5,
@@ -446,7 +446,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 50,
         name: "Diglett",
-        image: "/assets/assets/pokemons/default/50.png",
+        image: "/50.png",
         type: ["Ground"],
         height: 0.2,
         weight: 0.8,
@@ -454,7 +454,7 @@ const AllPokemon: Pokemon[] = [
     }, {
         id: 51,
         name: "Dugtrio",
-        image: "/assets/assets/pokemons/default/51.png",
+        image: "/51.png",
         type: ["Ground"],
         height: 0.7,
         weight: 33.3,
@@ -463,7 +463,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 52,
         name: "Meowth",
-        image: "/assets/assets/pokemons/default/52.png",
+        image: "/52.png",
         type: ["Normal"],
         height: 0.4,
         weight: 4.2,
@@ -472,7 +472,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 53,
         name: "Persian",
-        image: "/assets/assets/pokemons/default/53.png",
+        image: "/53.png",
         type: ["Normal"],
         height: 1,
         weight: 32,
@@ -481,7 +481,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 54,
         name: "Psyduck",
-        image: "/assets/assets/pokemons/default/54.png",
+        image: "/54.png",
         type: ["Water"],
         height: 0.8,
         weight: 19.6,
@@ -490,7 +490,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 55,
         name: "Golduck",
-        image: "/assets/assets/pokemons/default/55.png",
+        image: "/55.png",
         type: ["Water"],
         height: 1.7,
         weight: 76.6,
@@ -499,7 +499,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 56,
         name: "Mankey",
-        image: "/assets/assets/pokemons/default/56.png",
+        image: "/56.png",
         type: ["Fighting"],
         height: 0.5,
         weight: 28,
@@ -508,7 +508,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 57,
         name: "Primeape",
-        image: "/assets/assets/pokemons/default/57.png",
+        image: "/57.png",
         type: ["Fighting"],
         height: 1,
         weight: 32,
@@ -517,7 +517,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 58,
         name: "Growlithe",
-        image: "/assets/assets/pokemons/default/58.png",
+        image: "/58.png",
         type: ["Fire"],
         height: 0.7,
         weight: 19,
@@ -526,7 +526,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 59,
         name: "Arcanine",
-        image: "/assets/assets/pokemons/default/59.png",
+        image: "/59.png",
         type: ["Fire"],
         height: 1.9,
         weight: 155,
@@ -535,7 +535,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 60,
         name: "Poliwag",
-        image: "/assets/assets/pokemons/default/60.png",
+        image: "/60.png",
         type: ["Water"],
         height: 0.6,
         weight: 12.4,
@@ -544,7 +544,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 61,
         name: "Poliwhirl",
-        image: "/assets/assets/pokemons/default/61.png",
+        image: "/61.png",
         type: ["Water"],
         height: 1,
         weight: 20,
@@ -553,7 +553,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 62,
         name: "Poliwrath",
-        image: "/assets/assets/pokemons/default/62.png",
+        image: "/62.png",
         type: ["Water", "Fighting"],
         height: 1.3,
         weight: 54,
@@ -562,7 +562,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 63,
         name: "Abra",
-        image: "/assets/assets/pokemons/default/63.png",
+        image: "/63.png",
         type: ["Psychic"],
         height: 0.9,
         weight: 19.5,
@@ -571,25 +571,17 @@ const AllPokemon: Pokemon[] = [
     {
         id: 64,
         name: "Kadabra",
-        image: "/assets/assets/pokemons/default/64.png",
+        image: "/64.png",
         type: ["Psychic"],
         height: 1.3,
         weight: 56.5,
         baseExperience: 140,
     },
+
     {
         id: 65,
-        name: "Alakazam",
-        image: "/assets/assets/pokemons/default/65.png",
-        type: ["Psychic"],
-        height: 1.5,
-        weight: 48,
-        baseExperience: 225,
-    },
-    {
-        id: 66,
         name: "Machop",
-        image: "/assets/assets/pokemons/default/66.png",
+        image: "/65.png",
         type: ["Fighting"],
         height: 0.8,
         weight: 19.5,
@@ -598,7 +590,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 67,
         name: "Machoke",
-        image: "/assets/assets/pokemons/default/67.png",
+        image: "/67.png",
         type: ["Fighting"],
         height: 1.5,
         weight: 70.5,
@@ -607,7 +599,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 68,
         name: "Machamp",
-        image: "/assets/assets/pokemons/default/68.png",
+        image: "/68.png",
         type: ["Fighting"],
         height: 1.6,
         weight: 130,
@@ -616,7 +608,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 69,
         name: "Bellsprout",
-        image: "/assets/assets/pokemons/default/69.png",
+        image: "/69.png",
         type: ["Grass", "Poison"],
         height: 0.7,
         weight: 4,
@@ -625,7 +617,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 70,
         name: "Weepinbell",
-        image: "/assets/assets/pokemons/default/70.png",
+        image: "/70.png",
         type: ["Grass", "Poison"],
         height: 1,
         weight: 6.4,
@@ -634,7 +626,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 71,
         name: "Victreebel",
-        image: "/assets/assets/pokemons/default/71.png",
+        image: "/71.png",
         type: ["Grass", "Poison"],
         height: 1.7,
         weight: 15.5,
@@ -643,7 +635,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 72,
         name: "Tentacool",
-        image: "/assets/assets/pokemons/default/72.png",
+        image: "/72.png",
         type: ["Water", "Poison"],
         height: 0.9,
         weight: 45.5,
@@ -652,7 +644,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 73,
         name: "Tentacruel",
-        image: "/assets/assets/pokemons/default/73.png",
+        image: "/73.png",
         type: ["Water", "Poison"],
         height: 1.6,
         weight: 55,
@@ -661,7 +653,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 74,
         name: "Geodude",
-        image: "/assets/assets/pokemons/default/74.png",
+        image: "/74.png",
         type: ["Rock", "Ground"],
         height: 0.4,
         weight: 20,
@@ -670,7 +662,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 75,
         name: "Graveler",
-        image: "/assets/assets/pokemons/default/75.png",
+        image: "/75.png",
         type: ["Rock", "Ground"],
         height: 1,
         weight: 105,
@@ -679,7 +671,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 76,
         name: "Golem",
-        image: "/assets/assets/pokemons/default/76.png",
+        image: "/76.png",
         type: ["Rock", "Ground"],
         height: 1.4,
         weight: 300,
@@ -688,7 +680,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 77,
         name: "Ponyta",
-        image: "/assets/assets/pokemons/default/77.png",
+        image: "/77.png",
         type: ["Fire"],
         height: 1,
         weight: 30,
@@ -697,7 +689,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 78,
         name: "Rapidash",
-        image: "/assets/assets/pokemons/default/78.png",
+        image: "/78.png",
         type: ["Fire"],
         height: 1.7,
         weight: 95,
@@ -706,7 +698,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 79,
         name: "Slowpoke",
-        image: "/assets/assets/pokemons/default/79.png",
+        image: "/79.png",
         type: ["Water", "Psychic"],
         height: 1.2,
         weight: 36,
@@ -715,7 +707,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 80,
         name: "Slowbro",
-        image: "/assets/assets/pokemons/default/80.png",
+        image: "/80.png",
         type: ["Water", "Psychic"],
         height: 1.6,
         weight: 78.5,
@@ -724,7 +716,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 81,
         name: "Magnemite",
-        image: "/assets/assets/pokemons/default/81.png",
+        image: "/81.png",
         type: ["Electric", "Steel"],
         height: 0.3,
         weight: 6,
@@ -733,7 +725,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 82,
         name: "Magneton",
-        image: "/assets/assets/pokemons/default/82.png",
+        image: "/82.png",
         type: ["Electric", "Steel"],
         height: 1,
         weight: 60,
@@ -742,7 +734,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 83,
         name: "Farfetch'd",
-        image: "/assets/assets/pokemons/default/83.png",
+        image: "/83.png",
         type: ["Normal", "Flying"],
         height: 0.8,
         weight: 15,
@@ -751,7 +743,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 84,
         name: "Doduo",
-        image: "/assets/assets/pokemons/default/84.png",
+        image: "/84.png",
         type: ["Normal", "Flying"],
         height: 1.4,
         weight: 39.2,
@@ -760,7 +752,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 85,
         name: "Dodrio",
-        image: "/assets/assets/pokemons/default/85.png",
+        image: "/85.png",
         type: ["Normal", "Flying"],
         height: 1.8,
         weight: 85.2,
@@ -769,7 +761,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 86,
         name: "Seel",
-        image: "/assets/assets/pokemons/default/86.png",
+        image: "/86.png",
         type: ["Water"],
         height: 1.1,
         weight: 90,
@@ -778,7 +770,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 87,
         name: "Dewgong",
-        image: "/assets/assets/pokemons/default/87.png",
+        image: "/87.png",
         type: ["Water", "Ice"],
         height: 1.7,
         weight: 120,
@@ -787,7 +779,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 88,
         name: "Grimer",
-        image: "/assets/assets/pokemons/default/88.png",
+        image: "/88.png",
         type: ["Poison"],
         height: 0.9,
         weight: 30,
@@ -796,7 +788,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 89,
         name: "Muk",
-        image: "/assets/assets/pokemons/default/89.png",
+        image: "/89.png",
         type: ["Poison"],
         height: 1.2,
         weight: 30,
@@ -805,7 +797,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 90,
         name: "Shellder",
-        image: "/assets/assets/pokemons/default/90.png",
+        image: "/90.png",
         type: ["Water"],
         height: 0.3,
         weight: 4,
@@ -814,7 +806,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 91,
         name: "Cloyster",
-        image: "/assets/assets/pokemons/default/91.png",
+        image: "/91.png",
         type: ["Water", "Ice"],
         height: 1.5,
         weight: 132.5,
@@ -823,7 +815,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 92,
         name: "Gastly",
-        image: "/assets/assets/pokemons/default/92.png",
+        image: "/92.png",
         type: ["Ghost", "Poison"],
         height: 1.3,
         weight: 0.1,
@@ -832,7 +824,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 93,
         name: "Haunter",
-        image: "/assets/assets/pokemons/default/93.png",
+        image: "/93.png",
         type: ["Ghost", "Poison"],
         height: 1.6,
         weight: 0.1,
@@ -841,7 +833,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 94,
         name: "Gengar",
-        image: "/assets/assets/pokemons/default/94.png",
+        image: "/94.png",
         type: ["Ghost", "Poison"],
         height: 1.5,
         weight: 40.5,
@@ -850,7 +842,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 95,
         name: "Onix",
-        image: "/assets/assets/pokemons/default/95.png",
+        image: "/95.png",
         type: ["Rock", "Ground"],
         height: 8.8,
         weight: 210,
@@ -859,7 +851,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 96,
         name: "Drowzee",
-        image: "/assets/assets/pokemons/default/96.png",
+        image: "/96.png",
         type: ["Psychic"],
         height: 1,
         weight: 32.4,
@@ -868,7 +860,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 97,
         name: "Hypno",
-        image: "/assets/assets/pokemons/default/97.png",
+        image: "/97.png",
         type: ["Psychic"],
         height: 1.6,
         weight: 75.6,
@@ -877,7 +869,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 98,
         name: "Krabby",
-        image: "/assets/assets/pokemons/default/98.png",
+        image: "/98.png",
         type: ["Water"],
         height: 0.4,
         weight: 6.5,
@@ -886,7 +878,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 99,
         name: "Kingler",
-        image: "/assets/assets/pokemons/default/99.png",
+        image: "/99.png",
         type: ["Water"],
         height: 1.3,
         weight: 60,
@@ -895,7 +887,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 100,
         name: "Voltorb",
-        image: "/assets/assets/pokemons/default/100.png",
+        image: "/100.png",
         type: ["Electric"],
         height: 0.5,
         weight: 10.4,
@@ -904,7 +896,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 101,
         name: "Electrode",
-        image: "/assets/assets/pokemons/default/101.png",
+        image: "/101.png",
         type: ["Electric"],
         height: 1.2,
         weight: 66.6,
@@ -913,7 +905,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 102,
         name: "Exeggcute",
-        image: "/assets/assets/pokemons/default/102.png",
+        image: "/102.png",
         type: ["Grass", "Psychic"],
         height: 0.4,
         weight: 2.5,
@@ -922,7 +914,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 103,
         name: "Exeggutor",
-        image: "/assets/assets/pokemons/default/103.png",
+        image: "/103.png",
         type: ["Grass", "Psychic"],
         height: 2,
         weight: 120,
@@ -931,7 +923,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 104,
         name: "Cubone",
-        image: "/assets/assets/pokemons/default/104.png",
+        image: "/104.png",
         type: ["Ground"],
         height: 0.4,
         weight: 6.5,
@@ -940,7 +932,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 105,
         name: "Marowak",
-        image: "/assets/assets/pokemons/default/105.png",
+        image: "/105.png",
         type: ["Ground"],
         height: 1,
         weight: 45,
@@ -949,7 +941,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 106,
         name: "Hitmonlee",
-        image: "/assets/assets/pokemons/default/106.png",
+        image: "/106.png",
         type: ["Fighting"],
         height: 1.5,
         weight: 49.8,
@@ -958,7 +950,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 107,
         name: "Hitmonchan",
-        image: "/assets/assets/pokemons/default/107.png",
+        image: "/107.png",
         type: ["Fighting"],
         height: 1.4,
         weight: 50.2,
@@ -967,7 +959,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 108,
         name: "Lickitung",
-        image: "/assets/assets/pokemons/default/108.png",
+        image: "/108.png",
         type: ["Normal"],
         height: 1.2,
         weight: 65.5,
@@ -976,7 +968,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 109,
         name: "Koffing",
-        image: "/assets/assets/pokemons/default/109.png",
+        image: "/109.png",
         type: ["Poison"],
         height: 0.6,
         weight: 1,
@@ -985,7 +977,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 110,
         name: "Weezing",
-        image: "/assets/assets/pokemons/default/110.png",
+        image: "/110.png",
         type: ["Poison"],
         height: 1.2,
         weight: 9.5,
@@ -994,7 +986,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 111,
         name: "Rhyhorn",
-        image: "/assets/assets/pokemons/default/111.png",
+        image: "/111.png",
         type: ["Ground", "Rock"],
         height: 1,
         weight: 115,
@@ -1003,7 +995,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 112,
         name: "Rhydon",
-        image: "/assets/assets/pokemons/default/112.png",
+        image: "/112.png",
         type: ["Ground", "Rock"],
         height: 1.9,
         weight: 120,
@@ -1012,7 +1004,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 113,
         name: "Chansey",
-        image: "/assets/assets/pokemons/default/113.png",
+        image: "/113.png",
         type: ["Normal"],
         height: 1.1,
         weight: 34.6,
@@ -1021,7 +1013,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 114,
         name: "Tangela",
-        image: "/assets/assets/pokemons/default/114.png",
+        image: "/114.png",
         type: ["Grass"],
         height: 1,
         weight: 35,
@@ -1030,7 +1022,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 115,
         name: "Kangaskhan",
-        image: "/assets/assets/pokemons/default/115.png",
+        image: "/115.png",
         type: ["Normal"],
         height: 2.2,
         weight: 80,
@@ -1039,7 +1031,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 116,
         name: "Horsea",
-        image: "/assets/assets/pokemons/default/116.png",
+        image: "/116.png",
         type: ["Water"],
         height: 0.4,
         weight: 8,
@@ -1048,7 +1040,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 117,
         name: "Seadra",
-        image: "/assets/assets/pokemons/default/117.png",
+        image: "/117.png",
         type: ["Water"],
         height: 1.2,
         weight: 25,
@@ -1057,7 +1049,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 118,
         name: "Goldeen",
-        image: "/assets/assets/pokemons/default/118.png",
+        image: "/118.png",
         type: ["Water"],
         height: 0.6,
         weight: 15,
@@ -1066,7 +1058,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 119,
         name: "Seaking",
-        image: "/assets/assets/pokemons/default/119.png",
+        image: "/119.png",
         type: ["Water"],
         height: 1.3,
         weight: 39,
@@ -1075,7 +1067,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 120,
         name: "Staryu",
-        image: "/assets/assets/pokemons/default/120.png",
+        image: "/120.png",
         type: ["Water"],
         height: 0.8,
         weight: 34.5,
@@ -1084,7 +1076,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 121,
         name: "Starmie",
-        image: "/assets/assets/pokemons/default/121.png",
+        image: "/121.png",
         type: ["Water", "Psychic"],
         height: 1.1,
         weight: 80,
@@ -1093,7 +1085,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 122,
         name: "Mr. Mime",
-        image: "/assets/assets/pokemons/default/122.png",
+        image: "/122.png",
         type: ["Psychic", "Fairy"],
         height: 1.3,
         weight: 54.5,
@@ -1102,7 +1094,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 123,
         name: "Scyther",
-        image: "/assets/assets/pokemons/default/123.png",
+        image: "/123.png",
         type: ["Bug", "Flying"],
         height: 1.5,
         weight: 56,
@@ -1111,7 +1103,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 124,
         name: "Jynx",
-        image: "/assets/assets/pokemons/default/124.png",
+        image: "/124.png",
         type: ["Ice", "Psychic"],
         height: 1.4,
         weight: 40.6,
@@ -1120,7 +1112,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 125,
         name: "Electabuzz",
-        image: "/assets/assets/pokemons/default/125.png",
+        image: "/125.png",
         type: ["Electric"],
         height: 1.1,
         weight: 30,
@@ -1129,7 +1121,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 126,
         name: "Magmar",
-        image: "/assets/assets/pokemons/default/126.png",
+        image: "/126.png",
         type: ["Fire"],
         height: 1.3,
         weight: 44.5,
@@ -1138,7 +1130,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 127,
         name: "Pinsir",
-        image: "/assets/assets/pokemons/default/127.png",
+        image: "/127.png",
         type: ["Bug"],
         height: 1.5,
         weight: 55,
@@ -1147,7 +1139,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 128,
         name: "Tauros",
-        image: "/assets/assets/pokemons/default/128.png",
+        image: "/128.png",
         type: ["Normal"],
         height: 1.4,
         weight: 88.4,
@@ -1156,7 +1148,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 129,
         name: "Magikarp",
-        image: "/assets/assets/pokemons/default/129.png",
+        image: "/129.png",
         type: ["Water"],
         height: 0.9,
         weight: 10,
@@ -1165,7 +1157,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 130,
         name: "Gyarados",
-        image: "/assets/assets/pokemons/default/130.png",
+        image: "/130.png",
         type: ["Water", "Flying"],
         height: 6.5,
         weight: 235,
@@ -1174,7 +1166,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 131,
         name: "Lapras",
-        image: "/assets/assets/pokemons/default/131.png",
+        image: "/131.png",
         type: ["Water", "Ice"],
         height: 2.5,
         weight: 220,
@@ -1183,7 +1175,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 132,
         name: "Ditto",
-        image: "/assets/assets/pokemons/default/132.png",
+        image: "/132.png",
         type: ["Normal"],
         height: 0.3,
         weight: 4,
@@ -1192,7 +1184,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 133,
         name: "Eevee",
-        image: "/assets/assets/pokemons/default/133.png",
+        image: "/133.png",
         type: ["Normal"],
         height: 0.3,
         weight: 6.5,
@@ -1201,7 +1193,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 134,
         name: "Vaporeon",
-        image: "/assets/assets/pokemons/default/134.png",
+        image: "/134.png",
         type: ["Water"],
         height: 1,
         weight: 29,
@@ -1210,7 +1202,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 135,
         name: "Jolteon",
-        image: "/assets/assets/pokemons/default/135.png",
+        image: "/135.png",
         type: ["Electric"],
         height: 0.8,
         weight: 24.5,
@@ -1219,7 +1211,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 136,
         name: "Flareon",
-        image: "/assets/assets/pokemons/default/136.png",
+        image: "/136.png",
         type: ["Fire"],
         height: 0.9,
         weight: 25,
@@ -1228,7 +1220,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 137,
         name: "Porygon",
-        image: "/assets/assets/pokemons/default/137.png",
+        image: "/137.png",
         type: ["Normal"],
         height: 0.8,
         weight: 36.5,
@@ -1237,7 +1229,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 138,
         name: "Omanyte",
-        image: "/assets/assets/pokemons/default/138.png",
+        image: "/138.png",
         type: ["Rock", "Water"],
         height: 0.4,
         weight: 7.5,
@@ -1246,7 +1238,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 139,
         name: "Omastar",
-        image: "/assets/assets/pokemons/default/139.png",
+        image: "/139.png",
         type: ["Rock", "Water"],
         height: 1,
         weight: 35,
@@ -1255,7 +1247,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 140,
         name: "Kabuto",
-        image: "/assets/assets/pokemons/default/140.png",
+        image: "/140.png",
         type: ["Rock", "Water"],
         height: 0.5,
         weight: 11.5,
@@ -1264,7 +1256,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 141,
         name: "Kabutops",
-        image: "/assets/assets/pokemons/default/141.png",
+        image: "/141.png",
         type: ["Rock", "Water"],
         height: 1.3,
         weight: 40.5,
@@ -1273,7 +1265,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 142,
         name: "Aerodactyl",
-        image: "/assets/assets/pokemons/default/142.png",
+        image: "/142.png",
         type: ["Rock", "Flying"],
         height: 1.8,
         weight: 59,
@@ -1282,7 +1274,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 143,
         name: "Snorlax",
-        image: "/assets/assets/pokemons/default/143.png",
+        image: "/143.png",
         type: ["Normal"],
         height: 2.1,
         weight: 460,
@@ -1291,7 +1283,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 144,
         name: "Articuno",
-        image: "/assets/assets/pokemons/default/144.png",
+        image: "/144.png",
         type: ["Ice", "Flying"],
         height: 1.7,
         weight: 55.4,
@@ -1300,7 +1292,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 145,
         name: "Zapdos",
-        image: "/assets/assets/pokemons/default/145.png",
+        image: "/145.png",
         type: ["Electric", "Flying"],
         height: 1.6,
         weight: 52.6,
@@ -1309,7 +1301,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 146,
         name: "Moltres",
-        image: "/assets/assets/pokemons/default/146.png",
+        image: "/146.png",
         type: ["Fire", "Flying"],
         height: 2,
         weight: 60,
@@ -1318,7 +1310,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 147,
         name: "Dratini",
-        image: "/assets/assets/pokemons/default/147.png",
+        image: "/147.png",
         type: ["Dragon"],
         height: 1.8,
         weight: 3.3,
@@ -1327,7 +1319,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 148,
         name: "Dragonair",
-        image: "/assets/assets/pokemons/default/148.png",
+        image: "/148.png",
         type: ["Dragon"],
         height: 4,
         weight: 16.5,
@@ -1336,7 +1328,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 149,
         name: "Dragonite",
-        image: "/assets/assets/pokemons/default/149.png",
+        image: "/149.png",
         type: ["Dragon", "Flying"],
         height: 2.2,
         weight: 210,
@@ -1345,7 +1337,7 @@ const AllPokemon: Pokemon[] = [
     {
         id: 150,
         name: "Mewtwo",
-        image: "/assets/assets/pokemons/default/150.png",
+        image: "/150.png",
         type: ["Psychic"],
         height: 2,
         weight: 122,
