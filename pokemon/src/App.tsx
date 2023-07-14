@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap"
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
+import Homescreen from "./Screens/Homescreen"
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <main className="py-3">
         <Container>
-          <h1>Welcome To PokePedia</h1>
+          <Homescreen />
         </Container>
       </main>
       <Footer />
