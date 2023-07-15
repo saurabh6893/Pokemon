@@ -5,11 +5,13 @@ import './assets/styles/index.css'
 import './assets/styles/bootstrap.custom.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Homescreen from './Screens/Homescreen.tsx'
+import PokemonScreen from './Screens/PokemonScreen.tsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index={true} path='/' element={<Homescreen />} />
+      <Route path='/pokemon/:id' element={<PokemonScreen />} />
     </Route>
   )
 )
