@@ -1,46 +1,57 @@
-import { Link, useParams } from "react-router-dom";
-import AllPokemon from "../PokemonList";
-import { Card, Col, Image, ListGroup, Row } from "react-bootstrap";
-import Exp from "../Components/Exp";
-import React from "react";
+import { useParams } from "react-router-dom";
+import { PokemonInterface } from "../Interfaces/Pokemon";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { Spinner } from "react-bootstrap";
 
 const PokemonScreen = () => {
-    const { id: pokemonId } = useParams<{ id: string }>();
-    const pokemon = AllPokemon.find((p) => p.id === Number(pokemonId));
+  const { id } = useParams<{ id: string }>();
+  const productId: string = id || "";
 
+  const [aPokemon, setaPokemon] = useState<PokemonInterface | null>(null);
+
+  useEffect(() => {
+    const fetchPokemon = () => {
+      axios.get<PokemonInterface>(`http://localhost:5000/api/pokemon/${productId}`)
+        .then((response) => {
+          const { data } = response;
+          setaPokemon(data);
+        })
+        .catch((error) => {
+          console.error("Error fetching Pokemon:", error);
+        });
+    };
+
+    fetchPokemon();
+  }, [productId]);
+
+  // If the data is still being fetched, display a loading spinner
+  if (!aPokemon) {
     return (
-        <>
-            <Link className="btn btn-light my-3" to='/'>
-                Back
-            </Link>
-            <Row>
-                <Col md={5}>
-                    <Image src={pokemon?.image} alt={pokemon?.name} fluid />
-                </Col>
-                <Col md={4}>
-                    <ListGroup variant="flush">
-                        <ListGroup.Item>
-                            <h3>{pokemon?.name}</h3>
-                        </ListGroup.Item>
-                        <ListGroup.Item>
-                            <Exp value={pokemon?.baseExperience} />
-                        </ListGroup.Item>
+      <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
+        <Spinner animation="border" variant="primary" />
+      </div>
+    );
+  }
 
-
-                    </ListGroup>
-                </Col>
-                <Card.Text as="h3">
-                    {pokemon?.type.map((type: string, index: number) => (
-                        <React.Fragment key={type}>
-                            {index !== 0 && <span className="mx-1">|</span>}
-                            <span>{type}</span>
-                        </React.Fragment>
-                    ))}
-                </Card.Text>
-            </Row>
-
-        </>
-    )
-}
+  return (
+    <div className="container mt-4">
+      <div className="row">
+        <div className="col-md-6 offset-md-3">
+          <div className="card">
+            <img src={aPokemon.image} alt={aPokemon.name} className="card-img-top" />
+            <div className="card-body">
+              <h1 className="card-title">{aPokemon.name}</h1>
+              <p className="card-text">Type: {aPokemon.type.join(", ")}</p>
+              <p className="card-text">Height: {aPokemon.height} m</p>
+              <p className="card-text">Weight: {aPokemon.weight} kg</p>
+              <p className="card-text">Base Experience: {aPokemon.baseExperience}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default PokemonScreen;

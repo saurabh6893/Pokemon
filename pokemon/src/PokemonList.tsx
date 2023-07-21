@@ -1,7 +1,7 @@
-import { Pokemon } from "./Interfaces/Pokemon";
+import { PokemonInterface } from "./Interfaces/Pokemon";
 
 
-const AllPokemon: Pokemon[] = [
+const AllPokemon: PokemonInterface[] = [
     {
         id: 1,
         name: "Bulbasaur",

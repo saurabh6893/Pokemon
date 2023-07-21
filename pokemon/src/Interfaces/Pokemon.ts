@@ -1,4 +1,4 @@
-export interface Pokemon {
+export interface PokemonInterface {
     id: number;
     name: string;
     image: string;
@@ -8,7 +8,8 @@ export interface Pokemon {
     baseExperience: number;
 }
 
-
 export interface PokemonProps {
-    pokemon: Pokemon;
-}
+    pokemon: PokemonInterface;
+  }
+
+
